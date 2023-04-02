@@ -618,7 +618,7 @@ a.text-danger:focus {
   color: #843534;
 }
 
-.bg-primary {
+.bg-primary, .text-light{
   color: #fff;
 }
 
