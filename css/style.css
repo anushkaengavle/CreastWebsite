@@ -495,7 +495,20 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   content: '';
-  background: rgba(0, 0, 0, 0.5);
+  background: linear-gradient(60deg,#00093c,#260036,#141414);
+  background-size:600% 600%;
+  animation: animatebg 10s infinite linear;
+}
+@keyframes animatebg{
+  0%{
+    background-position: 0 85%;
+  }
+  50%{
+    background-position: 100% 20%;
+  }
+  100%{
+    background-position: 0 85%;
+  }
 }
 .fh5co-counters .counter-wrap {
   border: 1px solid red !important;
@@ -1639,3 +1652,30 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 /*# sourceMappingURL=style.css.map */
+.underline{
+  width: 30%;
+  height: 5px;
+  background: #767676;
+  border-radius: 3px;
+  position: absolute;
+  top: 25px;
+  align-items: center;
+  overflow: hidden;
+}
+.underline span{
+  width: 25px;
+  height: 100%;
+  background: white;
+  border-radius: 3px;
+  position: absolute;
+  left: 10px;
+ animation: moving 2s linear infinite;
+}
+@keyframes moving{
+  0%{
+    left: -100%;
+  }
+  100%{
+    left: 100%;
+  }
+}
