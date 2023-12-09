@@ -23,6 +23,46 @@
     <link rel="stylesheet" href="css/slick.css">
     <!-- style CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .special_cource {
+            padding-top: 50px; /* Increase padding */
+        }
+
+        #content {
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+            background: linear-gradient(to right, #0c2e60, #ffffff);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border: none; /* Remove border */
+            border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .course-buttons {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px 20px;
+        }
+
+        .course-buttons button {
+            margin: 0 10px;
+            padding: 30px;
+            font-size: 16px;
+            cursor: pointer;
+            background: none; /* Remove background */
+            border: none; /* Remove border */
+            border-bottom: 2px solid #0c2e60; /* Add colored border at the bottom */
+            color: #0c2e60; /* Set text color */
+        }
+    </style>
+   
+    
 </head>
 
 <body>
@@ -241,111 +281,63 @@
                         <p>popular courses</p>
                         <h2>Special Courses</h2>
                     </div>
+                    <div class="row course-buttons">
+                        <button onclick="changeContent('button1')">Change to Course 1</button>
+                        <button onclick="changeContent('button2')">Change to Course 2</button>
+                    </div>
                 </div>
             </div>
+    
             <div class="row">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="single_special_cource">
-                        <img src="img/special_cource_1.png" class="special_img" alt="">
-                        <div class="special_cource_text">
-                            <a href="./course_pages/C2_webbuildr.html" class="btn_4">Category1</a>
-                            <h4>15 hours</h4>
-                            <a href="./course_pages/C2_webbuildr.html">
-                                <h3>Web Development</h3>
-                            </a>
-                            <p>Which whose darkness saying were life unto fish wherein all fish of together called</p>
-                            <div class="author_info">
-                                <div class="author_img">
-                                    <img src="img/author/author_1.png" alt="">
-                                    <div class="author_info_text">
-                                        <p>Conduct by:</p>
-                                        <h5><a href="#">James Well</a></h5>
-                                    </div>
-                                </div>
-                                <div class="author_rating">
-                                    <div class="rating">
-                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
-                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
-                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
-                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
-                                        <a href="#"><img src="img/icon/star.svg" alt=""></a>
-                                    </div>
-                                    <p>3.8 Ratings</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="single_special_cource">
-                        <img src="img/special_cource_2.png" class="special_img" alt="">
-                        <div class="special_cource_text">
-                            <a href="course-details.html" class="btn_4">Category2</a>
-                            <h4>30 hours</h4>
-                            <a href="course-details.html">
-                                <h3>Web UX/UI Design </h3>
-                            </a>
-                            <p>Which whose darkness saying were life unto fish wherein all fish of together called</p>
-                            <div class="author_info">
-                                <div class="author_img">
-                                    <img src="img/author/author_2.png" alt="">
-                                    <div class="author_info_text">
-                                        <p>Conduct by:</p>
-                                        <h5><a href="#">James Well</a></h5>
-                                    </div>
-                                </div>
-                                <div class="author_rating">
-                                    <div class="rating">
-                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
-                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
-                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
-                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
-                                        <a href="#"><img src="img/icon/star.svg" alt=""></a>
-                                    </div>
-                                    <p>3.8 Ratings</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="single_special_cource">
-                        <img src="img/special_cource_3.png" class="special_img" alt="">
-                        <div class="special_cource_text">
-                            <a href="course-details.html" class="btn_4">Category3</a>
-                            <h4>15 hours</h4>
-                            <a href="course-details.html">
-                                <h3>Wordpress Development</h3>
-                            </a>
-                            <p>Which whose darkness saying were life unto fish wherein all fish of together called</p>
-                            <div class="author_info">
-                                <div class="author_img">
-                                    <img src="img/author/author_3.png" alt="">
-                                    <div class="author_info_text">
-                                        <p>Conduct by:</p>
-                                        <h5><a href="#">James Well</a></h5>
-                                    </div>
-                                </div>
-                                <div class="author_rating">
-                                    <div class="rating">
-                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
-                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
-                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
-                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
-                                        <a href="#"><img src="img/icon/star.svg" alt=""></a>
-                                    </div>
-                                    <p>3.8 Ratings</p>
-                                </div>
-                            </div>
-                        </div>
-
+                <div class="col-md-12">
+                    <div id="content">
+                        <!-- Initial content -->
+                        <img src="./img/cource/cource_1.png" alt="Default Image">
+                        <p>This is the default course description.</p>
                     </div>
                 </div>
             </div>
+    
         </div>
     </section>
+    <script>
+        function changeContent(buttonName) {
+            var contentDiv = document.getElementById('content');
+    
+            if (buttonName === 'button1') {
+                contentDiv.innerHTML = '<div style="text-align: right;">' +
+                                          '<img src="./img/cource/cource_2.png" alt="Course 1 Image" style="max-width: 100%; height: auto;">' +
+                                       '</div>' +
+                                       '<div style="text-align: left;">' +
+                                          '<h3 style="font-weight: bold;">Course 1 Title</h3>' +
+                                          '<p>This is the description for Course 1.</p>' +
+                                          '<ul>' +
+                                             '<li>Bullet Point 1</li>' +
+                                             '<li>Bullet Point 2</li>' +
+                                             '<li>Bullet Point 3</li>' +
+                                             '<li>Bullet Point 4</li>' +
+                                             '<li>Bullet Point 5</li>' +
+                                          '</ul>' +
+                                       '</div>';
+            } else if (buttonName === 'button2') {
+                contentDiv.innerHTML = '<div style="text-align: right;">' +
+                                          '<img src="./img/cource/cource_3.png" alt="Course 2 Image" style="max-width: 100%; height: auto;">' +
+                                       '</div>' +
+                                       '<div style="text-align: left;">' +
+                                          '<h3 style="font-weight: bold;">Course 2 Title</h3>' +
+                                          '<p>This is the description for Course 2.</p>' +
+                                          '<ul>' +
+                                             '<li>Bullet Point 1</li>' +
+                                             '<li>Bullet Point 2</li>' +
+                                             '<li>Bullet Point 3</li>' +
+                                             '<li>Bullet Point 4</li>' +
+                                             '<li>Bullet Point 5</li>' +
+                                          '</ul>' +
+                                       '</div>';
+            }
+        }
+    </script>
+    
     <!--::blog_part end::-->
 
     <!-- learning part start-->
