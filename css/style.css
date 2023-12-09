@@ -121,12 +121,19 @@ input:focus {
 .padding_top {
   padding-top: 140px;
 }
+.padding_bottom {
+  padding-bottom: 140px;
+}
+
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 
   /* line 48, E:/172 Etrain Education/172_Etrain_Education_html/sass/_common.scss */
   .padding_top {
     padding-top: 80px;
+  }
+  .padding_bottom {
+    padding-bottom: 80px;
   }
 }
 
@@ -136,6 +143,9 @@ input:focus {
   .padding_top {
     padding-top: 70px;
   }
+  .padding_bottom {
+    padding-bottom: 70px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -144,6 +154,9 @@ input:focus {
   .padding_top {
     padding-top: 70px;
   }
+  .padding_bottom {
+    padding-bottom: 70px;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -151,6 +164,9 @@ input:focus {
   /* line 48, E:/172 Etrain Education/172_Etrain_Education_html/sass/_common.scss */
   .padding_top {
     padding-top: 70px;
+  }
+  .padding_bottom {
+    padding-bottom: 70px;
   }
 }
 
