@@ -4,12 +4,14 @@
 /* line 2, E:/172 Etrain Education/172_Etrain_Education_html/sass/_extends.scss */
 .btn_1,
 .btn_2:hover,
-.main_menu .navbar-toggler:after,
 .banner_part .banner_text .btn_1,
 .feature_part .single_feature:hover span {
   background-image: linear-gradient(to left, #ee390f 0%, #f9b700 51%, #ee390f 100%);
 }
+.main_menu .navbar-toggler:after{
+  background-image: linear-gradient(to left, #f7f7f7, #f7f7f7 100%);
 
+}
 /* line 6, E:/172 Etrain Education/172_Etrain_Education_html/sass/_extends.scss */
 .member_counter {
   background-image: -moz-linear-gradient(0deg, #ee390f 0%, #f9b700 100%);
@@ -4740,7 +4742,10 @@ ul {
 .testimonial_part .section_tittle {
   margin-bottom: 80px;
 }
-
+.testimonial_home{
+  margin-bottom: 3rem;
+  margin-top: 3.5rem;
+}
 @media (max-width: 576px) {
 
   /* line 4, E:/172 Etrain Education/172_Etrain_Education_html/sass/_testimonial_part.scss */
